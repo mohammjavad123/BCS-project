@@ -1,0 +1,66 @@
+.main {
+  margin: 3% auto;
+  :global {
+    .anticon {
+      font-size: 387%;
+      color: #fcba03;
+    }
+  }
+}
+.statisticssqr:hover {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.statisticssqr {
+  transition: width 0.8s;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  border-radius: 30px;
+  margin: 4% auto;
+  -webkit-box-shadow: -8px 9px 15px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: -8px 9px 15px -8px rgba(0, 0, 0, 0.68);
+}
+
+.statisticssqr:hover {
+  width: 72%;
+  // height: 80%;
+  margin-bottom: 0;
+  @media only screen and (min-width: 1500px) {
+    width: 50%;
+  }
+}
+.statisticscir {
+  // background-color: red;
+  height: 150px;
+  width: 150px;
+  // background-color: #bbb;
+  border-radius: 20%;
+  margin-top: 3% !important;
+  display: inline-block;
+  margin: 17%;
+  padding: auto auto;
+}
+.statisticsTitle {
+  margin-top: 2%;
+  margin-right: 22%;
+}
+.statisticsicons {
+  padding-right: 35%;
+  padding-top: 4%;
+}
+.statisticsNumber {
+  font-size: 40px;
+  margin-top: 7%;
+  margin-right: 30%;
+  opacity: 1;
+  color: #f09b1f;
+  font-family: YekanBakh-Hairline;
+}
+.statisticscir:hover {
+  color: #f09b1f;
+  // font-family:YekanBakh-Hairline;
+}
+.handleMargin {
+  margin: 2% 10%;
+}

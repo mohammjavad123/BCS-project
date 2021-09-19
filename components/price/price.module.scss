@@ -1,0 +1,57 @@
+.main {
+  width: 71%;
+  height: 99%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  margin-top: 2%;
+  box-shadow: 5px 3px 21px -11px rgba(0, 0, 0, 0.75);
+  transition: width 0.8s;
+  @media only screen and (max-width: 576px) {
+    margin-right: 33%;
+    width: 70%;
+    height: 96%;
+  }
+}
+
+.main:hover {
+  @media only screen and (max-width: 576px) {
+    width: 70% !important;
+    height: 98% !important;
+  }
+  width: 74%;
+  height: 104%;
+}
+.top {
+  padding-top: 25%;
+  text-align: center;
+  transition: width 0.8s;
+  position: absolute;
+  width: 109%;
+  height: 30%;
+  background-color: rgb(143, 127, 187);
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-top: 5%;
+  box-shadow: 5px 3px 21px -11px rgba(0, 0, 0, 0.75);
+}
+.top:hover {
+  width: 105%;
+}
+.content {
+  padding-top: 70%;
+  padding-right: 3%;
+  .antButton {
+    margin-right: 40%;
+    margin-top: 5%;
+    :global {
+      .ant-btn {
+        background: #220939;
+        border-color: #220939;
+        border-radius: 20px;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  :global {
+    .ant-divider-plain.ant-divider-with-text {
+      margin-top: 12%;
+    }
+  }
+}
+.MainButtons {
+  @media screen and (max-width: 1800px) {
+    margin-top: 36%;
+  }
+  margin-top: 22%;
+}
+
+.image {
+  opacity: 0.9;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  @media only screen and (max-width: 576px) {
+    height: 300px;
+  }
+}
+.test {
+  width: 100%;
+  top: 0px;
+  position: absolute;
+  margin-top: 2%;
+}
+.MainButtoms {
+  margin-top: 8%;
+}
+.Devider {
+  margin-bottom: 2%;
+}

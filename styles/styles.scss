@@ -1,0 +1,40 @@
+body {
+  background-color: #f7f8fa !important;
+  // direction: rtl !important;
+  // font-family: Markazi;
+}
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+a:hover {
+  color: #b051aa;
+  // border-bottom: 4px solid #b051aa;
+  // border-spacing: -1px;
+  // border-bottom-style: double;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  text-decoration: none;
+  text-align: right;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.ant-input:hover {
+  border-color: #b051aa;
+  border-right-width: 1px !important;
+}
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #b051aa;
+  box-shadow: none;
+}

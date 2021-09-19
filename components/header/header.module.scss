@@ -1,0 +1,117 @@
+.main {
+  :global {
+    .ant-btn:not([disabled]):hover {
+      text-decoration: none;
+      background: #b051aa;
+    }
+    .ant-modal-content {
+      position: relative;
+      top: -46px;
+      left: -342px;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 0;
+      border-radius: 2px;
+      box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+        0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+      pointer-events: auto;
+    }
+    .ant-modal-wrap {
+      position: absolute;
+      top: -16%;
+      right: 0;
+      bottom: 0;
+      left: -53%;
+      z-index: 1000;
+      overflow: auto;
+      outline: 0;
+      -webkit-overflow-scrolling: touch;
+    }
+    .ant-btn:hover,
+    .ant-btn:focus {
+      color: black;
+      background: #fff;
+      border-color: #b051aa;
+    }
+    .ant-modal-content {
+      right: 67%;
+      margin-top: 3%;
+    }
+  }
+}
+.test {
+  :global {
+    .ant-modal-header {
+      border-bottom: none;
+    }
+    .ant-btn:focus {
+      color: black;
+      border: none;
+      background: #b051aa;
+    }
+  }
+}
+.logo {
+  height: 99%;
+  width: 96%;
+  margin-top: -22px;
+  @media only screen and (max-width: 576px) {
+    height: 103%;
+    width: 26%;
+    margin-top: -12px;
+  }
+}
+
+.list {
+  margin-top: 4%;
+  width: 55%;
+  margin-right: 5%;
+  line-height: 33px;
+}
+
+.listItem {
+  font-family: "YBRegular";
+  font-size: 105%;
+}
+
+.listItemLink {
+  color: #7d7a8c;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.register {
+  color: black;
+  font-family: YBRegular;
+  line-height: 215%;
+  font-weight: bold;
+}
+
+.signin {
+  background-color: #b051aa;
+  opacity: 0.9;
+  margin-right: 87%;
+  height: 82%;
+  padding: 6%;
+  color: black;
+  line-height: 37%;
+  border-radius: 6px;
+  font-family: YBRegular;
+}
+
+.signInRegister {
+  margin-top: 4%;
+  width: 14%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.container {
+  margin-top: 2%;
+}
